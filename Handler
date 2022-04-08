@@ -1,0 +1,12 @@
+local gamesSupported = {
+    "4588604953",
+    "6564618548"
+}
+
+for i,v in pairs(gamesSupported) do
+    if v == game.4588604953 then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ghvstblade/FloodWare.cc/main/Script', true))()
+    elseif v ~= game.6564618548 then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ghvstblade/FloodWare.cc/main/Script', true))()
+    end
+end
